@@ -1,0 +1,35 @@
+// Part 2 : Essay
+/*
+1-  a-the difference between forEach and for of that for of work on any iterable while forEach is array method work with array only 
+    b- in for of you can control the loop like continue , break and return but forEach don't
+     Uses:
+     for of: You need to iterate over any non-array iterable 
+             you need to exit the loop early using break or continue
+     forEach: when you are working with array and you need to perform an operation on every single element
+              You don't need to stop or skip iterations based on a condition
+
+
+2- hoisting mean that the variable declaration move to the top of their scope
+    Example: console.log(x); => output is undefined(Because it is not assigned yet )
+             var x = 10;
+    TDZ: the time between entering scope and being declared (apply with let and const)
+     Example: console.log(x); => Error
+     let x = 10;
+
+
+3- == : Compares values only, ignores the data types.
+   === : - Compares both value and type
+
+
+4- try-catch is the way to handle an error , and we use try-catch because the code might fail in runtime 
+    try:if the statement in try block execute without error the catch block is skipped
+    catch :if an error occurs in try block the execution stops and the control transfer to catch block to handle the error
+
+5- type conversion : you manually convert from one type to another 
+                    Example: String(123) => "123"
+                            Number("123") => 123
+   type coercion : JS automatically converts types when needed 
+                    Example: "5" - 2 => 3
+                            "10" * "2" => 20 
+                            "5" + 2 => 52 
+ */ 
